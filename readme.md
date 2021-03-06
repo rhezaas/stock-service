@@ -28,4 +28,6 @@ go run cmd/consumer/main.go
 
 # run service #1
 go run cmd/publiser/main.go
+
+# output file at "output.txt"
 ```

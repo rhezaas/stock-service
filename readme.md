@@ -1,6 +1,6 @@
 # Stock Services
 
-## Requrement
+## Requirement
 Write 2 services to read and process the data
 
 ### Service #1

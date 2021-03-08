@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+}
+
+mainClassName = 'app.Main'
+version = '1.0.0'
+sourceCompatibility = 11
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'app.Main'
+    }
+}
+
+dependencies {
+   implementation project(':kafka')
+}
+
+task runProducer(type: JavaExec) {
+    group = "Execution"
+    description = "Run Producer"
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'app.Main'
+}

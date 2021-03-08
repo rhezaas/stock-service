@@ -1,0 +1,4 @@
+rootProject.name = 'stock-services'
+include 'producer'
+include 'consumer'
+include 'kafka'

@@ -24,10 +24,10 @@ sudo nano /etc/hosts
 docker-compose -f docker-compose.yml up
 
 # run service #2
-go run cmd/consumer/main.go
+./gradlew runConsumer
 
 # run service #1
-go run cmd/publiser/main.go
+./gradlew runProducer
 
 # output file at "output.txt"
 ```

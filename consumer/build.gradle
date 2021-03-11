@@ -12,6 +12,10 @@ jar {
     }
 }
 
+dependencies {
+    implementation project(':shared')
+}
+
 task runConsumer(type: JavaExec) {
     group = "Execution"
     description = "Run Consumer"

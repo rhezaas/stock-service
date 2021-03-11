@@ -1,0 +1,12 @@
+plugins {
+    id 'application'
+}
+
+version = '1.0.0'
+sourceCompatibility = 11
+
+test {
+    testLogging {
+        showStandardStreams = true
+    }
+}

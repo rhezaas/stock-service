@@ -13,7 +13,7 @@ jar {
 }
 
 dependencies {
-   implementation project(':kafka')
+    implementation project(':shared')
 }
 
 task runProducer(type: JavaExec) {
